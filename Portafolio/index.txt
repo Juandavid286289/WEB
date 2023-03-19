@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio programacion WEB</title>
+</head>
+
+
+<body>
+    <header>
+        <h1>Nombre del estudiante:</h1>
+    <h2>E-mail: </h2>
+    <h2>Github: </h2>
+    <!-- _blank e spara abrir una nueva pestaña cuando den clip en el linl-->
+    <h2>Link de yootube: <a href="https://www.youtube.com/" target="_blank">youtube</a></h2>
+    <h2>Link de GPT3 <a href="https://chat.openai.com/chat" target="_blank">GPT3</a></h2>
+    </header>
+    <section>
+        <articule>
+            <ul>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+            </ul>
+        </articule>
+        <articule>
+            <ul>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+            </ul>
+        </articule>
+        <articule>
+            <ul>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+            </ul>
+        </articule>
+        <articule>
+            <ul>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+            </ul>
+        </articule>
+    </section>
+    <section>
+        <h2>Presentacion</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nostrum? Quasi, alias aut. Odio, esse. Aut amet possimus, provident asperiores ut eligendi obcaecati recusandae iste? Dignissimos ea aliquam porro quasi!
+    
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique enim vitae in corporis esse praesentium ut nihil suscipit voluptatem distinctio officiis, pariatur ex? Recusandae porro modi libero, voluptas quis enim.
+        </p>
+    </section>
+
+</body>
+
+
+</html>

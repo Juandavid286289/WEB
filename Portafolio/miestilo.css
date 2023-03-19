@@ -1,0 +1,45 @@
+.presentacion{
+    position: absolute;
+    width: 760px;
+    height: 300px;
+    left: 10px;
+    top: 350px;
+
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+    background-color: rgba(73, 75, 75, 0.242);
+}
+
+.imagen{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 800px;
+    top: 20px;
+}
+
+.link_articule{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 800px;
+    top: 445px;
+
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+    background-color: aqua;
+
+}
+body {
+    background-color: #56555515;
+  }
