@@ -1,19 +1,112 @@
+body {
+    background-image:url(images/fondo.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.e1_6 { 
+	width:693px;
+	height:147px;
+	position:absolute;
+	left:659px;
+	top:16px;
+}
+.e1_3 { 
+	background-color:rgba(217, 217, 217, 0.511);
+	width:693px;
+	height:147px;
+	position:absolute;
+	left:0px;
+	top:0px;
+    border-radius: 20px;
+}
+
+.name{ 
+	color:rgba(0, 0, 0, 1);
+	width:631.046630859375px;
+	height:28.21875px;
+	position:absolute;
+	left:10px;
+	top:0px;
+	font-family:Inter;
+	text-align:left;
+	font-size:36px;
+	letter-spacing:0;
+}
+
+.e1_13 { 
+	width:41px;
+	height:27px;
+	position:absolute;
+	left:37px;
+	top:95px;
+	background-image:url(images/image_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.email { 
+	color:rgba(0, 0, 0, 1);
+	width:212px;
+	height:24px;
+	position:absolute;
+	left:70px;
+	top:75px;
+	font-family:Inter;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+}
+
+.e1_23 { 
+	width:628px;
+	height:722px;
+	position:absolute;
+	left: -640px;
+	top:0px;
+}
+.e1_20 { 
+	background-color:rgba(217, 217, 217, 0.558);
+	width:628px;
+	height:722px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.portafolio{ 
+    position:absolute;
+	color:rgba(0, 0, 0, 1);
+	width:631.046630859375px;
+	height:28.21875px;
+	
+	left:10px;
+	top:0px;
+	font-family:Inter;
+	font-style: left;
+	font-size:36px;
+
+    color:rgba(0, 0, 0, 1);
+    background-color: rgba(73, 75, 75, 0.242);
+}
 .presentacion{
     position: absolute;
-    width: 760px;
-    height: 300px;
-    left: 10px;
-    top: 350px;
+    width: 600px;
+    height: 48px;
+    left: 30px;
+    top: 200px;
 
-    font-family: 'Itim';
-    font-style: normal;
+    font-family:Inter;
+    font-style: left;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
 
-    color: #000000;
+    color:rgba(0, 0, 0, 1);
     background-color: rgba(73, 75, 75, 0.242);
 }
+
+
 
 .imagen{
     position: absolute;
