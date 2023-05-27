@@ -5,7 +5,7 @@ body {
 }
 
 .e1_6 { 
-	width:693px;
+	width:670px;
 	height:147px;
 	position:absolute;
 	left:659px;
@@ -13,7 +13,7 @@ body {
 }
 .e1_3 { 
 	background-color:rgba(217, 217, 217, 0.511);
-	width:693px;
+	width:670px;
 	height:147px;
 	position:absolute;
 	left:0px;
@@ -34,16 +34,6 @@ body {
 	letter-spacing:0;
 }
 
-.e1_13 { 
-	width:41px;
-	height:27px;
-	position:absolute;
-	left:37px;
-	top:95px;
-	background-image:url(images/image_1.png);
-	background-repeat:no-repeat;
-	background-size:cover;
-}
 
 .email { 
 	color:rgba(0, 0, 0, 1);
@@ -56,6 +46,17 @@ body {
 	text-align:left;
 	font-size:20px;
 	letter-spacing:0;
+}
+
+.e1_12 { 
+	width:40px;
+	height:40px;
+	position:absolute;
+	left:15px;
+	top: 84px;
+	background-image:url(images/correo.png);
+	background-repeat:no-repeat;
+	background-size:cover;	
 }
 
 .e1_23 { 
@@ -72,13 +73,14 @@ body {
 	position:absolute;
 	left:0px;
 	top:0px;
+	border-radius: 10px;
 }
 
 .portafolio{ 
     position:absolute;
 	color:rgba(0, 0, 0, 1);
-	width:631.046630859375px;
-	height:28.21875px;
+	width:250px;
+	height:45px;
 	
 	left:10px;
 	top:0px;
@@ -92,9 +94,9 @@ body {
 .presentacion{
     position: absolute;
     width: 600px;
-    height: 48px;
+    height: 450px;
     left: 30px;
-    top: 200px;
+    top: 150px;
 
     font-family:Inter;
     font-style: left;
@@ -116,23 +118,86 @@ body {
     top: 20px;
 }
 
+
+
+.e1_24 { 
+	width:670px;
+	height:550px;
+	position:absolute;
+	left: 640px;
+	top: 160px;
+}
+.e1_25 { 
+	background-color:rgba(217, 217, 217, 0.558);
+	width:670px;
+	height:550px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-radius: 10px;
+}
+
+.figma{ 
+    position:absolute;
+	color:rgba(0, 0, 0, 1);
+	width:400px;
+	height:28.21875px;
+	
+	left:10px;
+	top:30px;
+	font-family:Inter;
+	font-style: left;
+	font-size:15px;
+
+    color:rgba(0, 0, 0, 1);
+}
+
+.hoja_vida{ 
+    position:absolute;
+	color:rgba(0, 0, 0, 1);
+	width:400px;
+	height:28.21875px;
+	
+	left:10px;
+	top:0px;
+	font-family:Inter;
+	font-style: left;
+	font-size:15px;
+
+    color:rgba(0, 0, 0, 1);
+}
+
+.e1_13 { 
+	width:250px;
+	height:250px;
+	position:absolute;
+	left:410px;
+	top:10px;
+	background-image:url(images/foto_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;	
+	border-radius: 10px;
+}
 .link_articule{
     position: absolute;
-    width: 400px;
+    width: 370px;
     height: 200px;
-    left: 800px;
-    top: 445px;
+    left: 670px;
+    top: 260px;
 
     font-family: 'Itim';
-    font-style: normal;
+    font-style: Inter;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
 
-    color: #000000;
-    background-color: aqua;
+    color: #0f0f0f;
+    background-color: rgba(88, 173, 173, 0.337);
+	border-radius: 10px;
 
 }
+
+
 body {
     background-color: #56555515;
   }

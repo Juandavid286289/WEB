@@ -1,0 +1,84 @@
+body{
+    background-image:url(fondo.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.h1{
+    text-align: center;
+
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    
+}
+
+.card div{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 2s;
+    padding: 5px;
+}
+
+
+.card .front{
+    background: rgba(0, 0, 0, 0.177) 100%;
+    background-color: rgba(255, 255, 255, 0.805);
+    font-family:Inter;
+    font-style: left;
+    transform: perspective(500px) rotateY(0deg);
+    text-align: center;
+    border-radius: 20px;
+
+}
+.front p{
+    padding: 10px;
+    color: rgba(74, 73, 73, 0.986);
+}
+.back p{
+    padding: 10px;
+    color: white;
+}
+
+.card .back{
+    background: rgb(47, 136, 213);
+    font-size: 0.76rem;
+    transform: perspective(500px) rotateY(180deg);
+    text-align: center;
+    align-items: center;
+    display: block;
+
+}
+
+.card:hover .front{
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card:hover .back{
+    transform: perspective(500px) rotateY(360deg);
+}
+
+.back img{
+
+    width: 85%;
+    height:45%;
+    object-fit: cover;
+    border-radius: 200px;
+    position: relative;
+
+  }
